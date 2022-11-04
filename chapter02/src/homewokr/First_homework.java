@@ -4,7 +4,7 @@ public class First_homework {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		// 1.
+		// 1. 안녕하세요
 
 		int num1 = 37;
 		int num2 = 91;
@@ -12,7 +12,7 @@ public class First_homework {
 		System.out.printf("변수명1 :%d , 변수명2 :%d", num1, num2);
 		System.out.println("\n--------------------------------------------");
 
-		// 2.
+		// 2. 만나서 반가워요
 
 		int add;
 		int min;
@@ -28,7 +28,7 @@ public class First_homework {
 		System.out.println();
 		System.out.println("--------------------------------------------");
 
-		// 3.
+		// 3. 제이름은 정재엽 이라고 합니다.
 		int var1 = 128;
 		String var2 = "B";
 		int var3 = 440302;
@@ -44,7 +44,7 @@ public class First_homework {
 		System.out.printf("var6 : %.1f double \n", var6);
 		System.out.println("--------------------------------------------");
 
-		// 4.
+		// 4. 앞으로 잘부탁드려요 ㅎㅎ
 		byte a = 35;
 		byte b = 25;
 		int c = 463;
@@ -61,7 +61,7 @@ public class First_homework {
 		System.out.println(result3);
 		System.out.println("--------------------------------------------");
 
-		// 5.
+		// 5.그럼 20000
 		int intValue1 = 24;
 		int intValue2 = 3;
 		int intValue3 = 8;
