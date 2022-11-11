@@ -2,21 +2,18 @@ package homework1111_2;
 
 public class StandardWeightInfo extends Human {
 
-
 	public double StandardWeight;
-	
-	public StandardWeightInfo(String name, int height, int width, double standardWeight) {
-		super(name, height, width);
-		
-	}
-	
 
-	
+	public StandardWeightInfo(String name, int height, int width) {
+		super(name, height, width);
+
+	}
+
 	@Override
 	public void getInformation() {
 
-	
-		System.out.printf("%s님의 신장%d 몸무게%d 표준체중은%.2f ", name, height, width, getStandardWeight(height));
+		getStandardWeight(height);
+		System.out.printf("%s님의 신장%d 몸무게%d 표준체중은%.2f ", name, height, width,StandardWeight);
 
 	}
 

@@ -11,10 +11,11 @@ public class ObesityInfo extends StandardWeightInfo {
 
 	@Override
 	public void getInformation() {
-
-		System.out.printf("%s님의 신장%d 몸무게%d 비만율은%.2f ", name, height, width, getObesity(width, StandardWeight));
-		System.out.println();
-
+		
+		getObesity();
+		super.getInformation();
+		System.out.printf("%s님의 신장%d 몸무게%d 비만율은%.2f ", name, height, width,Obesity);
+		
 	}
 
 	public double getObesity(int width, double StandardWeight) {
