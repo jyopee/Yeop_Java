@@ -1,0 +1,14 @@
+package animal;
+
+public class Dog2 extends Animal2{
+
+	
+	
+	
+	@Override
+	public void sound() {
+		System.out.println("멍멍");
+		
+	}
+
+}
