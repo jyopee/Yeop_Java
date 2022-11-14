@@ -18,6 +18,7 @@ public class Theater {
 	
 		obj.getInformation();
 		
+		
 		System.out.println("관중의 수를 입력하세요");
 		int People2 = input.nextInt();
 		Culture obj2 = new Performance("지킬엔 하이드",9,10,People2);

@@ -10,7 +10,7 @@ public class Performance extends Culture {
 	}
 
 	public void getInformation() {
-		super.setTotalScore(0);
+		super.setTotalScore(score);
 		System.out.println("======================");
 		System.out.println("영화 제목 :" + genre);
 		System.out.println("영화 감독 :" + directors);
@@ -18,6 +18,7 @@ public class Performance extends Culture {
 		System.out.println("영화 총점 :" + score);
 		super.getGrade();
 		System.out.println("영화 평점 :" + avgScore);
+		System.out.println("======================");
 	}
 
 }

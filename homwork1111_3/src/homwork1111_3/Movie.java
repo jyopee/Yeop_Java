@@ -19,6 +19,7 @@ public class Movie extends Culture {
 		System.out.println("배우 :" + Actors);
 		System.out.println("영화 총점 :" + score);
 		System.out.println("영화 평점 :" + super.getGrade());
+		System.out.println("======================");
 
 	} // : 제목, 참여감독 수, 참여배우 수, 관객수, 총점, 평점을 출력하는 기능
 

@@ -38,8 +38,8 @@ public abstract class Culture {
 			score += Crowd[j];
 		}
 
+		this.score =score;
 		
-		System.out.println("영화 총점 :"+score);
 		
 	} // : 관객수와 총점을 누적시키는 기능
 
