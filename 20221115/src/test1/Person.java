@@ -6,9 +6,6 @@ public class Person {
 	public String name;
 	public String address;
 	
-	public Person() {
-		
-	}
 	
 	public Person(String ssn,String name,String address) {
 		this.ssn = ssn;
