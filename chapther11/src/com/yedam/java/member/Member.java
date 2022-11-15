@@ -1,20 +1,39 @@
 package com.yedam.java.member;
 
+import com.yedam.java.Map.Student;
+
 public class Member {
 
-	public String id;
+	public String name;
+	public int age;
 
-	public Member(String id) {
-		this.id = id;
+	public Member(String name, int age) {
+		this.name = name;
+		this.age = age;
 	}
 
 	@Override
 	public boolean equals(Object obj) {
-		Member member = (Member)obj;
-		//Object obj = new Member("blue"); -> Member obj = new Member("blue");
+		if (obj instanceof Member) {
+
+			Member member = (Member) obj;
+		return member.name.equals(name) && (member.age ==age);
 		
-		if (id.equals(member.id)) {
-			return true;
-		}return false;
+		}else {
+			return false;
+			
+			if(obj instanceof Member) {
+				Member member =(Member)obj;
+				return (Member==Member.member) && (name.equals(Member.member));
+			}else {
+				return false;
+			}
 		}
+		
+	@Override 
+	public int hashCode() {
+			return name.hashCode()+age;
+		}
+	}
+
 }
