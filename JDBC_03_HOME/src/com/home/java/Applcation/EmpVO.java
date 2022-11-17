@@ -27,7 +27,7 @@ public class EmpVO {
 	public void setFrom_data(String from_data) {
 		this.from_data = from_data;
 	}
-	public String getTo_data() {
+	public String getTo_data(String string) {
 		return to_data;
 	}
 	public void setTo_data(String to_data) {

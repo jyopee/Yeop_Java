@@ -23,7 +23,7 @@ public class EmpDAO1mpl extends DAO implements EmpDAO {
 		try {
 			connect(); // DB 연결
 			stmt = conn.createStatement();
-			String sql = "SELECT * FROM employees";
+			String sql = "SELECT * FROM dept_emp";
 			rs = stmt.executeQuery(sql); // sql 쿼리문의 결과를 rs 변수에 담음
 			int count = 0;
 			while (rs.next()) {
